@@ -1,0 +1,39 @@
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+/* Header */
+    
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav a {
+    font-size: 2rem;
+    color: #530d0d;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid #530d0d ;
+    text-decoration: underline;
+}
+
+.nav li:first-child {
+    background-color: rgb(63, 238, 238);
+}
+
+.nav li:last-child {
+    background-color: rgb(76, 252, 193);
+}
+
+.nav li:hover {
+    background-color: rgb(173, 255, 47);
+}
