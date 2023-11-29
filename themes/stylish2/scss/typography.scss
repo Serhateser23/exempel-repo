@@ -1,6 +1,7 @@
 p {
     font-family: $main-font;
     margin-bottom: 1.4rem;
+    color: $font-color;
 
 }
 
@@ -8,6 +9,7 @@ h1,
 h2,
 h3 {
     font-family: $header-font;
+    color: $font-color;
 }
 
 .title {

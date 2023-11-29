@@ -8,8 +8,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass stylish2/scss/style.scss stylish2/css/style.css --no-source-map",
-    "style-min": "sass stylish2/scss/style.scss stylish2/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-dark": "sass stylish2/scss/style-dark.scss stylish2/css/style-dark.css --no-source-map",
+    "style-min": "sass stylish2/scss/style.scss stylish2/css/style.min.css --no-source-map --style compressed",
+    "style-dark-min": "sass stylish2/scss/style-dark.scss stylish2/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass stylish2/scss/style.scss stylish2/css/style.css --no-source-map",
+    "style-light-min": "sass stylish2/scss/style.scss stylish2/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,23 @@
+.reports {
+    display: flex;
+    flex-direction: row;
+    gap: 1em 1em;
+
+    margin-bottom: 50px;
+
+}
+
+.sidebar {
+    margin-top: 50px;
+    order: 1;
+    width: 180px;
+}
+
+.reports-content {
+    order: 2;
+    flex: 1;
+}
+
+.snapshot {
+    width: 60%;
+}

@@ -1,23 +1,24 @@
 body {
     background-color: $background-color;
     line-height: 1.4;
+    min-height: 100vh;
 
 }
 
-* {
+/* {
     color: $font-color;
-}
+}*/
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: $footer-background-color;
-    color: $font-alternative-color;
+    color: $font-color;
     border-top: 2px solid $footer-top-border;
     padding-right: 20px;
     padding-left: 20px;
-
+    margin-top: auto;
 }
 
 .top-bar {
@@ -45,7 +46,7 @@ body {
     justify-content: space-between;
     align-items: center;
  
-    background-color: $footer-background-color;
+    background-color: $header-background-color;
     border-bottom: 2px solid $footer-top-border;
     
 }
@@ -56,26 +57,20 @@ body {
 }
 
 .nav a {
-    font-size: 2rem;
-    color: #530d0d;
-    text-decoration: none;
+    font-size: 1.6rem;
+    color: $font-color;
+    background-color: $main-color-3;
+    border: 1px solid $main-color-2;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .nav a:hover {
-    border-bottom: 4px solid #530d0d ;
-    text-decoration: underline;
-}
-
-.nav li:first-child {
-    background-color: rgb(63, 238, 238);
-}
-
-.nav li:last-child {
-    background-color: rgb(76, 252, 193);
-}
-
-.nav li:hover {
-    background-color: rgb(173, 255, 47);
+    background-color: $main-color-2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0.1px 5px 10px -1.5px inset, rgba(0, 0, 0, 0.3) 0.1px 3px 5px -2px inset;
 }
 
 .main {
