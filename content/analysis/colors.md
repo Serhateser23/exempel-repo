@@ -1,7 +1,7 @@
 ---
-Title: Reports
+Title: Analysis
 Description: This is my reports page.
-Template: reports
+Template: analysis
 ---
 
 Vårdguiden

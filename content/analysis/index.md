@@ -1,11 +1,11 @@
 ---
-Title: Reports
+Title: Analysis
 Description: This is my reports page.
 Template: technology
 ---
 
 
-Titel på rapporten
+Här finns mina rapporter
 =======================
 
 <div class="box3">
